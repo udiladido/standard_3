@@ -771,6 +771,62 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Change",
+            "id": "61aa146c-0c2f-4efe-a0cd-fc9bd6c55ba7",
+            "actions": [
+                {
+                    "name": "Change",
+                    "type": "Button",
+                    "id": "7b341f59-a847-49ef-9efe-9dc703f0a652",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "31f8e521-421b-468c-ad78-a1637a116fb5",
+                    "path": "<Keyboard>/{Cancel}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Change",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Look",
+            "id": "3f9e9cc5-27be-4319-b15d-5da4f69df182",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "62fc32e4-2cda-49dc-88c8-4c19710b4808",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6cbed8c-1c19-4851-b859-a7bb2aeb5e95",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
