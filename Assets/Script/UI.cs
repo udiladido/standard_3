@@ -12,6 +12,12 @@ public class UI : MonoBehaviour
 
     }
 
+    public void ToggleCursor()
+    {
 
+        Cursor.lockState = CursorLockMode.None;
+
+
+    }
 
 }
