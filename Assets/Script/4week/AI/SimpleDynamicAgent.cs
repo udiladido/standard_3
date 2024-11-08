@@ -14,13 +14,16 @@ public class SimpleDynamicAgent : MonoBehaviour
 
     }
 
-
+    //<summary>
+    //Target이 있다면 지정해주는 방법
+    //</summary>
     [SerializeField]
     Transform target;
 
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(target.position);
+        //agent.SetDestination(target.transform);
+        agent.SetDestination(CharacterManager.Instance.Player.transform.position);
     }
 }
