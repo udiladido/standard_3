@@ -11,7 +11,6 @@ public class PlayerInputController : CharacterController
         Vector2 moveInput = value.Get<Vector2>();
 
 
-
         CallLookEvent(moveInput);
         
     }

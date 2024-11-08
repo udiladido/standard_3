@@ -1,14 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public CharacterController controller;
+    public PlayerController controller;
 
     private void Awake()
     {
         CharacterManager.Instance.Player = this;
-        controller = GetComponent<CharacterController>();
+        controller = GetComponent<PlayerController>();
     }
 }
